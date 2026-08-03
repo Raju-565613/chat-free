@@ -1,0 +1,33 @@
+{
+  "name": "chat-free",
+  "version": "1.0.0",
+  "description": "Chat Free -- NetChat (network-detected LAN rooms) + OutChat (Discord-style hosted channels) in one app.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.6.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "google-auth-library": "^9.15.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "overrides": {
+    "uuid": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
